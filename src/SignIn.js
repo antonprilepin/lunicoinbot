@@ -1,6 +1,6 @@
 import './App.css';
 
-function App() {
+function SignIn() {
     return (
       <div>
         <h1>Sam PIDOR</h1>
@@ -8,5 +8,5 @@ function App() {
     );
   }
   
-  export default App;
+  export default SignIn;
   
