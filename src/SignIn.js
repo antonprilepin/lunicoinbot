@@ -23,7 +23,6 @@ function SignIn() {
                     <input
                         className='input'
                         type="text"
-                        placeholder='Введите фразу восстановления*'
                         onFocus={handleFocus}
                         onBlur={handleBlur}
                     />
