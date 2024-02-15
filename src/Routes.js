@@ -8,10 +8,10 @@ function Routes() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <App />
+          <SignIn />
         </Route>
         <Route path="/login">
-          <SignIn />
+          <App />
         </Route>
       </Switch>
     </Router>
