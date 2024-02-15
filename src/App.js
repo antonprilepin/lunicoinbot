@@ -35,11 +35,9 @@ function App() {
         </div>
       </div>
 
-      <Switch>
-        <Route path="/login">
-          <SignIn />  
-        </Route>
-      </Switch>
+      <Route path="/login">
+        <SignIn />
+      </Route>
     </Router>
   );
 }
