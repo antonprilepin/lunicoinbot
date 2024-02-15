@@ -10,7 +10,6 @@ body {
 .text-container {
     position: relative;
     padding-top: 50px;
-    margin-left: 10%;
     align-items: center;
   }
 /* container ---END */
@@ -52,41 +51,38 @@ body {
 /* buttons ---END */
 
 /* inputs */
-.input {
-    margin-top: 3%;
-    margin-left: 4.7%;
-    width: 85%;
-    height: 250px;
-    border-radius: 33px;
-    border-style: solid;
-    background-color: transparent;
+.input-wrapper {
     position: relative;
+  }
+  
+  .input-wrapper input {
+    width: 100%;
     padding: 10px;
-    color: #64b7fa;
-    border-color: rgb(167, 184, 203);
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
-}
-
-.input::placeholder {
-    color: #7a8669;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: italic;
-    opacity: 1;
-    padding: 3%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-wrapper input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  .input-wrapper .placeholder {
     position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 16px;
+    pointer-events: none;
+    transition: all 0.3s;
+  }
+  
+  .input-wrapper.input-focused .placeholder {
+    font-size: 12px;
     top: 0;
-    left: 3;
-    position: fixed;
-}
-
-.input {
-    position: relative;
-    padding: 10px;
-    color: #ffffff;
-}
-
-input[type="text"].input {
-    text-align: left;
-
-}
+    transform: translateY(0);
+  }
 /* inputs ---END */
