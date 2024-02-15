@@ -25,7 +25,7 @@ function App() {
         <img src='https://static.herewallet.app/intro.35bf1b5e.png' alt="Luni Wallet" className='main-photo' />
       </div>
       <div className='main-text-container'>
-        <h1 className='title-text'>Luni Wallet</h1>
+        <h1 className='title-text'>Kuni Wallet</h1>
         <h2 dangerouslySetInnerHTML={{ __html: text }} className='text' />
         <button className="button">Зарегистрироваться</button>
       </div>
