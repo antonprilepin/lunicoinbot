@@ -10,6 +10,7 @@ body {
 .container {
     position: relative;
     padding-top: 50px;
+    margin-left: 10%;
   }
 /* container ---END */
 
@@ -30,17 +31,19 @@ body {
 
 /* buttions */
 .continue-button {
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: transparent;
+    color: #09373f;
     border: none;
-    color: white;
-    font-size: 16px;
+    font-size: 24px;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     cursor: pointer;
-    z-index: 999;
-    transition: filter 0.3s ease;
+    transition: background-color 0.4s ease;
+    width: 87%;
+    height: 100px;
+    margin-left: 6%;
+    margin-top: 7%;    
 }
 
 .continue-button:hover {
