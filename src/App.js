@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import SignIn from './SignIn';
 
 function App() {
   const [text, setText] = useState('');
@@ -33,6 +34,12 @@ function App() {
           <button className="button">Зарегистрироваться</button>
         </div>
       </div>
+
+      <Switch>
+        <Route path="/login">
+          <SignIn />  
+        </Route>
+      </Switch>
     </Router>
   );
 }

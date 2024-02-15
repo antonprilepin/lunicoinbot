@@ -5,13 +5,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 function SignIn() {
 
     return (
-        <Switch>
-            <Route path="/login">
-                <div>
-                    <h1>PETUH</h1>
-                </div>
-            </Route>
-        </Switch>
+        <div>
+            <h1>PETUH</h1>
+        </div>
     );
 }
 
