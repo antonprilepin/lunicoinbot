@@ -1,9 +1,9 @@
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useState } from 'react';
 import './App.css';
 
 function App() {
   const [text, setText] = useState('');
-  const word = '  Кошелёк Telegram нового<br> поколения. Безопасно, <br>быстро и через блокчейн<br>LUNI.    ';
+  const word = '  Кошелёк Telegram нового<br> поколения. Безопасно, <br>быстро и через блокчейн<br>LUNI.';
 
   useEffect(() => {
     let currentIndex = 0;
@@ -21,12 +21,14 @@ function App() {
 
   return (
     <div className="bg">
-      {/* <img src='https://static.herewallet.app/intro.35bf1b5e.png' className='main-photo'></img> */}
+      <div className="image-container">
+        <img src='https://static.herewallet.app/intro.35bf1b5e.png' alt="Luni Wallet" className='main-photo' />
+      </div>
       <div className='main-text-container'>
         <h1 className='title-text'>Luni Wallet</h1>
-        <h2 dangerouslySetInnerHTML={{ __html: text }} className='text'></h2>
+        <h2 dangerouslySetInnerHTML={{ __html: text }} className='text' />
+        <button className="button">Зарегистрироваться</button>
       </div>
-      <button className="button">Зарегистрироваться</button>
     </div>
   );
 }

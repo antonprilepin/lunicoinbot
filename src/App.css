@@ -8,17 +8,17 @@ body {
 
 .button {
   background-color: rgb(243, 225, 201);
-  color: #09373f; 
-  border: none; 
-  font-size: 24px; 
+  color: #09373f;
+  border: none;
+  font-size: 24px;
   border-radius: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
-  cursor: pointer; 
-  transition: background-color 0.4s ease; 
+  cursor: pointer;
+  transition: background-color 0.4s ease;
   width: 350px;
   height: 100px;
-  margin-left: 8%;
+  margin-left: 7%;
 }
 
 .button:hover {
@@ -26,23 +26,44 @@ body {
   background-color: #fdff88;
 }
 
-.main-text-container{
+.main-text-container {
   align-items: center;
   margin-bottom: 15%;
 }
 
-.title-text{
+.title-text {
   color: rgb(105, 98, 89);
   font-size: 500%;
   margin-bottom: -5%;
 }
 
-.text{
+.text {
   color: rgb(146, 134, 108);
   text-align: center;
 }
 
-.main-photo{
-  width: 15%;
-  height: 7%;
+.container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.main-text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.image-container {
+  position: absolute;
+  top: 20%; 
+  left: 60%;
+  transform: translate(-50%, -50%);
+  max-width: 80%; 
+}
+
+.main-photo {
+  max-width: 50%;
+  height: auto; 
 }
