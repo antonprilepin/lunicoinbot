@@ -1,7 +1,12 @@
-body{
-    background: radial-gradient(circle, #333 5%, #000 100%)
+body {
+    background: radial-gradient(circle, #333 5%, #000 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.title-text{
+
+.title-text {
     font-size: 350%;
     padding-left: 5%;
     margin-top: 10%;
@@ -10,13 +15,14 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-.podtitle-text{
+.podtitle-text {
     font-size: 150%;
     padding-left: 5%;
     margin-top: -2%;
-    color:  #a5d5fc;
+    color: #a5d5fc;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
 .input-pole {
     margin-top: 3%;
     margin-left: 4.7%;
@@ -26,11 +32,12 @@ body{
     border-style: solid;
     background-color: transparent;
     position: relative;
-    padding: 10px; 
+    padding: 10px;
     color: #64b7fa;
-    border-color:rgb(167, 184, 203) ;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); 
+    border-color: rgb(167, 184, 203);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
+
 .input-pole::placeholder {
     color: #7a8669;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -42,15 +49,18 @@ body{
     left: 3;
     position: fixed;
 }
+
 .input-pole {
-    position: relative; 
-    padding: 10px; 
+    position: relative;
+    padding: 10px;
     color: #ffffff;
 }
+
 input[type="text"].input-pole {
-  text-align: left;
-  
+    text-align: left;
+
 }
+
 .continue-button {
     background-color: #fdff88;
     color: #09373f;
@@ -65,10 +75,8 @@ input[type="text"].input-pole {
     height: 100px;
     margin-left: 6%;
     margin-top: 7%;
-  }
-  .continue-button:hover{
+}
+
+.continue-button:hover {
     background-color: #141614;
-  }
-  
- 
-  
+}
