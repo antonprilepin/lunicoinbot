@@ -31,7 +31,8 @@ body {
 }
 
 .title-text {
-  color: #edf046;
+  /* color: #edf046; */
+  color: #64b7fa;
   font-size: 400%;
   margin-bottom: -5%;
 }
