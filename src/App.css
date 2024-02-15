@@ -22,7 +22,7 @@ body {
 
 .button:hover {
   /* background-image: radial-gradient(circle, #ff9a9e, #fad0c4); */
-  background-color: rgb(243, 225, 201);
+  background-color: #feffb1;
 }
 
 .main-text-container {
