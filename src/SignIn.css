@@ -6,6 +6,13 @@ body {
     align-items: center;
 }
 
+/* container */
+.container {
+    position: relative;
+    padding-top: 50px;
+  }
+/* container ---END */
+
 /* text */
 .title-text {
     color: #64b7fa;
