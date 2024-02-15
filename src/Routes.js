@@ -4,18 +4,18 @@ import App from './App';
 import SignIn from './SignIn';
 
 function Routes() {
-  return (
-    <Router>
-      <Switch>
-        <Route exact path="/">
-          <SignIn />
-        </Route>
-        <Route path="/login">
-          <App />
-        </Route>
-      </Switch>
-    </Router>
-  );
+    return (
+        <Router>
+            <div>
+                <Route exact path="/">
+                    <SignIn />
+                </Route>
+                <Route path="/login">
+                    <App />
+                </Route>
+            </div>
+        </Router>
+    );
 }
 
 export default Routes;
