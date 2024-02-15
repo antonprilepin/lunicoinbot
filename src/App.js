@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <div>
-        <button className="login-button">Войти</button>
+        <Link to="/login" className="login-button">Войти</Link>
         <div className="image-container">
           <img src='https://static.herewallet.app/intro.35bf1b5e.png' alt="Luni Wallet" className='main-photo' />
         </div>
