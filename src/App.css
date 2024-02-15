@@ -37,6 +37,11 @@ body {
   font-size: 16px;
   cursor: pointer;
   z-index: 999; 
+  transition: filter 0.3s ease; /* Добавляем анимацию перехода */
+}
+
+.login-button:hover {
+  filter: brightness(0.8); /* Уменьшаем яркость кнопки при наведении */
 }
 /* buttons ---END */
 
