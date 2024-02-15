@@ -7,20 +7,16 @@ body {
 }
 
 .title-text {
-    font-size: 350%;
-    padding-left: 5%;
-    margin-top: 10%;
+    /* color: #edf046; */
     color: #64b7fa;
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-size: 400%;
+    margin-bottom: -5%;
 }
 
-.podtitle-text {
-    font-size: 150%;
-    padding-left: 5%;
-    margin-top: -2%;
+.text {
+    /* color: #fdff88; */
     color: #a5d5fc;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    text-align: center;
 }
 
 .input-pole {
