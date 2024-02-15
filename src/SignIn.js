@@ -1,7 +1,8 @@
-import './App.css';
+import './SignIn.css';
 
 function SignIn() {
     return (
+<<<<<<< Updated upstream
       <header>
       <nav className="navbar">
       <div className="navbar-logo">
@@ -13,8 +14,12 @@ function SignIn() {
       </div>
     </nav>
     </header>
+=======
+        <div className='bg'>
+            <h1>Sam PIDOR</h1>
+        </div>
+>>>>>>> Stashed changes
     );
-  }
-  
-  export default SignIn;
-  
+}
+
+export default SignIn;
