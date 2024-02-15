@@ -59,7 +59,8 @@ body {
 /* inputs */
 .input-wrapper {
     position: relative;
-    margin-left: 10%;
+    margin-left: 15%;
+    border-radius: 15px;
 }
 
 .input-wrapper input {
