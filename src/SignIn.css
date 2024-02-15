@@ -1,4 +1,74 @@
-.bg {
-    color: #4a90e2;
-    background-color: #4a90e2; 
+body{
+    background: radial-gradient(circle, #333 5%, #000 100%)
 }
+.title-text{
+    font-size: 350%;
+    padding-left: 5%;
+    margin-top: 10%;
+    color: #64b7fa;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.podtitle-text{
+    font-size: 150%;
+    padding-left: 5%;
+    margin-top: -2%;
+    color:  #a5d5fc;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.input-pole {
+    margin-top: 3%;
+    margin-left: 4.7%;
+    width: 85%;
+    height: 250px;
+    border-radius: 33px;
+    border-style: solid;
+    background-color: transparent;
+    position: relative; /* Делаем поле ввода позиционированным */
+    padding: 10px; /* Внутренний отступ для текста внутри поля ввода */
+    color: #64b7fa;
+    border-color:rgb(167, 184, 203) ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7); /* Добавляем тень справа и снизу */
+}
+.input-pole::placeholder {
+    color: #7a8669;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    opacity: 1;
+    padding: 3%;
+    position: absolute;
+    top: 0;
+    left: 3;
+    position: fixed;
+}
+.input-pole {
+    position: relative; /* Делаем поле ввода позиционированным */
+    padding: 10px; /* Внутренний отступ для текста внутри поля ввода */
+    color: #ffffff;
+}
+input[type="text"].input-pole {
+  text-align: left;
+  
+}
+.continue-button {
+    background-color: #fdff88;
+    color: #09373f;
+    border: none;
+    font-size: 24px;
+    border-radius: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.4s ease;
+    width: 87%;
+    height: 100px;
+    margin-left: 6%;
+    margin-top: 7%;
+  }
+  .continue-button:hover{
+    background-color: #141614;
+  }
+  
+ 
+  

@@ -1,24 +1,17 @@
 import './SignIn.css';
 
-function SignIn() {
+function App() {
     return (
-        <div>
-            <header>
-                <nav className="navbar">
-                    <div className="navbar-logo">
-                        <img src={logo} alt="Logo" />
-                    </div>
-                    <div className="navbar-icons">
-                        <img src={settingsIcon} alt="Settings" />
-                        {/* Сюда нужно будет добавить иконки */}
-                    </div>
-                </nav>
-            </header>
-            <div className='bg'>
-                <h1>Sam PIDOR</h1>
-            </div>
-        </div>
+      <div>
+        <h1 className='title-text'>Вход с помощью <br/> фразы восстановления</h1>
+        <p className='podtitle-text'>Пожалуйста, введите фразу восстановления, связанную с аккаунтом.</p>
+        <input className='input-pole' oninput="this.setAttribute('placeholder', this.value);" type="text" placeholder='Введите фразу восстановления*'></input>
+        <br/>
+        <button className='continue-button'>Далее</button>
+      </div>
+      
     );
-}
-
-export default SignIn;
+  }
+  
+  export default App;
+  
