@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import SignIn from './SignIn';
 
 function App() {
   const [text, setText] = useState('');
