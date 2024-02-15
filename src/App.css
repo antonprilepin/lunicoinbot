@@ -45,12 +45,6 @@ body {
 }
 /* buttons ---END */
 
-
-.main-text-container {
-  align-items: center;
-  margin-bottom: 15%;
-}
-
 /* text */
 .title-text {
   /* color: #edf046; */
@@ -71,6 +65,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  align-items: center;
+  margin-bottom: 15%;
 }
 /* text ---END */
 

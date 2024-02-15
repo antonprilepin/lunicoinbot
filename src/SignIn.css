@@ -6,19 +6,41 @@ body {
     align-items: center;
 }
 
+/* text */
 .title-text {
-    /* color: #edf046; */
     color: #64b7fa;
     font-size: 400%;
     margin-bottom: -5%;
 }
 
 .text {
-    /* color: #fdff88; */
     color: #a5d5fc;
     text-align: center;
 }
 
+/* text ---END */
+
+/* buttions */
+.continue-button {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    z-index: 999;
+    transition: filter 0.3s ease;
+}
+
+.continue-button:hover {
+    filter: brightness(0.8);
+}
+/* buttons ---END */
+
+/* inputs */
 .input-pole {
     margin-top: 3%;
     margin-left: 4.7%;
@@ -56,23 +78,4 @@ input[type="text"].input-pole {
     text-align: left;
 
 }
-
-.continue-button {
-    background-color: #fdff88;
-    color: #09373f;
-    border: none;
-    font-size: 24px;
-    border-radius: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    cursor: pointer;
-    transition: background-color 0.4s ease;
-    width: 87%;
-    height: 100px;
-    margin-left: 6%;
-    margin-top: 7%;
-}
-
-.continue-button:hover {
-    background-color: #141614;
-}
+/* inputs ---END */
