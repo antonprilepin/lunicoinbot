@@ -6,6 +6,7 @@ body {
   align-items: center;
 }
 
+/* buttons */
 .button {
   background-color: #fdff88;
   color: #09373f;
@@ -25,11 +26,27 @@ body {
   background-color: #feffb1;
 }
 
+.login-button {
+  position: absolute;
+  top: 10px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent; 
+  border: none; 
+  color: white; 
+  font-size: 16px;
+  cursor: pointer;
+  z-index: 999; 
+}
+/* buttons ---END */
+
+
 .main-text-container {
   align-items: center;
   margin-bottom: 15%;
 }
 
+/* text */
 .title-text {
   /* color: #edf046; */
   color: #64b7fa;
@@ -43,11 +60,6 @@ body {
   text-align: center;
 }
 
-.container {
-  position: relative;
-  padding-top: 50px;
-}
-
 .main-text-container {
   position: absolute;
   top: 50%;
@@ -55,7 +67,14 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+/* text ---END */
 
+.container {
+  position: relative;
+  padding-top: 50px;
+}
+
+/* images */
 .image-container {
   position: absolute;
   top: 20%; 
@@ -68,3 +87,4 @@ body {
   max-width: 50%;
   height: auto; 
 }
+/* images ---END */

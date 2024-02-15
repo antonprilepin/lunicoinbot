@@ -20,7 +20,8 @@ function App() {
 
 
   return (
-    <div className="bg">
+    <div>
+      <button className="login-button">Войти</button>
       <div className="image-container">
         <img src='https://static.herewallet.app/intro.35bf1b5e.png' alt="Luni Wallet" className='main-photo' />
       </div>
