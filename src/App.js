@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     let currentIndex = 0;
     const timer = setInterval(() => {
-      if (currentIndex < word.length) {
+      if (currentIndex < word.length -1) {
         setText(prevText => prevText + word[currentIndex]);
         currentIndex++;
       } else {
