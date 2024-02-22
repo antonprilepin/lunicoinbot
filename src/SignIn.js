@@ -15,7 +15,7 @@ function SignIn() {
     return (
         <div>
             <div className='text-container'>
-                <h1 className='title-text'>Вход с помощью фразы восстановления</h1>
+                <h2 className='title-text'>Вход с помощью фразы восстановления</h2>
                 <p className='text'>Пожалуйста, введите фразу восстановления, связанную с аккаунтом.</p>
             </div>
             <div className='container'>
