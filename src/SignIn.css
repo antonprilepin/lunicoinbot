@@ -15,7 +15,6 @@ body {
 
 .container {
     align-items: center;
-    padding: 35%;
 }
 
 /* container ---END */
@@ -45,7 +44,7 @@ body {
     transition: background-color 0.4s ease;
     width: 350px;
     height: 100px;
-    margin-left: 6%;
+    margin-left: 15%;
     margin-top: 7%;
 }
 
@@ -65,10 +64,10 @@ body {
 
 .input-wrapper input {
     width: 75%;
-    height: 30px;
+    height: 40px;
     padding: 10px;
     font-size: 16px;
-    border: 1px solid #ccc;
+    border: 1px solid #242323;
     border-radius: 15px;
     transition: border-color 0.3s;
     background-color: #09373f;
