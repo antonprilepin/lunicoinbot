@@ -98,6 +98,7 @@ body {
 .main-photo {
   max-width: 50%;
   height: auto;
+  margin-bottom: 5px;
 }
 
 /* images ---END */
