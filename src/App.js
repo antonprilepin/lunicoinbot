@@ -20,17 +20,19 @@ function App() {
 
 
   return (
-      <div>
-        <button className="login-button">Войти</button>
-        <div className="image-container">
-          <img src='https://static.herewallet.app/intro.35bf1b5e.png' alt="Luni Wallet" className='main-photo' />
-        </div>
-        <div className='main-text-container'>
-          <h1 className='title-text'>Luni Wallet</h1>
-          <h2 dangerouslySetInnerHTML={{ __html: text }} className='text' />
+    <div>
+      <div className="image-container">
+        <img src='https://static.herewallet.app/intro.35bf1b5e.png' alt="Luni Wallet" className='main-photo' />
+      </div>
+      <div className='main-text-container'>
+        <h1 className='title-text'>Luni Wallet</h1>
+        <h2 dangerouslySetInnerHTML={{ __html: text }} className='text' />
+        <div className='button-container'>
+          <button className="button">Войти</button>
           <button className="button">Зарегистрироваться</button>
         </div>
       </div>
+    </div>
   );
 }
 

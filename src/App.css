@@ -7,17 +7,24 @@ body {
 }
 
 /* buttons */
+
+.button-container {
+  width: 90%;
+  height: auto;
+  display: flex;
+}
+
 .button {
   background-color: #fdff88;
   color: #09373f;
   border: none;
-  font-size: 24px;
+  font-size: 14px;
   border-radius: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.4s ease;
-  width: 350px;
+  width: 175px;
   height: 100px;
 }
 
@@ -26,7 +33,7 @@ body {
   background-color: #feffb1;
 }
 
-.login-button {
+/* .login-button {
   position: absolute;
   top: 20px; 
   left: 50%;
@@ -38,11 +45,12 @@ body {
   cursor: pointer;
   z-index: 999; 
   transition: filter 0.3s ease; 
-}
+} */
 
 .login-button:hover {
-  filter: brightness(0.8); 
+  filter: brightness(0.8);
 }
+
 /* buttons ---END */
 
 /* text */
@@ -68,6 +76,7 @@ body {
   align-items: center;
   margin-bottom: 15%;
 }
+
 /* text ---END */
 
 .container {
@@ -78,14 +87,15 @@ body {
 /* images */
 .image-container {
   position: absolute;
-  top: 20%; 
+  top: 20%;
   left: 60%;
   transform: translate(-50%, -50%);
-  max-width: 80%; 
+  max-width: 80%;
 }
 
 .main-photo {
   max-width: 50%;
-  height: auto; 
+  height: auto;
 }
+
 /* images ---END */
