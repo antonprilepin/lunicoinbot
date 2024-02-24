@@ -11,20 +11,22 @@ body {
 .button-container {
   width: 90%;
   height: auto;
-  display: flex;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .button {
+  margin-top: 10px;
   background-color: #fdff88;
   color: #09373f;
   border: none;
-  font-size: 14px;
+  font-size: 24px;
   border-radius: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.4s ease;
-  width: 175px;
+  width: 350px;
   height: 100px;
 }
 
